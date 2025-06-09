@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-import "./app.css";
+import "./style/App.css"; // Assuming you have a CSS file for styles
 
 const planetsData = [
   { name: "Mercury", color: 0xaaaaaa, size: 0.3, distance: 4, speed: 0.04 },
